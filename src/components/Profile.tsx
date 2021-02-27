@@ -10,7 +10,7 @@ export function Profile() {
             <img src="https://github.com/WiniciusNvoip.png" alt="Marco Antonio" />
             <div>
                 <strong>Winicius Souza</strong>
-                <p><img src="icons/level.svg" alt="" />Level {level}</p>
+                <p><img src="icons/level.svg" alt="level" />Level {level}</p>
             </div>
         </div>
     );
