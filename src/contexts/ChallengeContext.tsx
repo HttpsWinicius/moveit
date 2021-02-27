@@ -73,7 +73,7 @@ export function ChallengesProvider( {children, ...rest} : ChallengesProviderProp
       setActiveChallenge(challenge);
       new Audio('/notification.mp3').play();
 
-        if (Notification.permission === 'granted') {
+        if (Notification.permission === 'granted' && screen.width > 736) {
             new Notification('Novo desafio 💥', {
                 body: `Valendo ${challenge.amount} xp !!!`
  
